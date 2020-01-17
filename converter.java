@@ -11,19 +11,22 @@ public class Converter
 *
 */
 
-private double celsiusToFahrenheit(doubleC){
+private double celsiusToFahrenheit(double C){
 	// TODO: The third student will implement this method
-	return0;
+	
+	return (C*9/5)+32;
 	
 	}
 	
-	private double fahrenheitToCelsius(doubleF){
+private double fahrenheitToCelsius(double F){
 		// TODO: The second student will implement this method
-		return0;
+		
+		
+		return (F-32)*5/9;
 		
 		}
 		
-	public static voidmain(String[] args) {
+public static voidmain(String[] args) {
 		
 		//TODO:The first student will implement this method.
 		//Call CelsiusToFahrenheit to convert 180 Celsiusto Fahrenheitvalue.
