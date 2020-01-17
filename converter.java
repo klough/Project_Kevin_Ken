@@ -22,7 +22,7 @@ private double fahrenheitToCelsius(double F){
 		// TODO: The second student will implement this method
 		
 		
-		return (F-32)*5/9;
+		return (F-32) * 5/9;
 		
 		}
 		
