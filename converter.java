@@ -13,13 +13,13 @@ public class Converter
 
 private double celsiusToFahrenheit(doubleC){
 	// TODO: The third student will implement this method
-	return0;
+	return 0;
 	
 	}
 	
 	private double fahrenheitToCelsius(doubleF){
 		// TODO: The second student will implement this method
-		return0;
+		return 0;
 		
 		}
 		
