@@ -43,6 +43,7 @@ public static void main(String[] args) {
 		System.out.println(C.celsiusToFahrenheit(180)); //180 System.out.println
 		//C.celsiusToFahrenheit(180);
 		System.out.println(C.fahrenheitToCelsius(250)); //250
+		System.out.println(C.kilometersToMiles(30)); //30
 	}
 	
 	}
