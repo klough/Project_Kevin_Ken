@@ -31,8 +31,8 @@ public static voidmain(String[] args) {
 		//TODO:The first student will implement this method.
 		//Call CelsiusToFahrenheit to convert 180 Celsius to Fahrenheit value.
 		// Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
-		String[0] = celsiusToFahrenheit(180);
-		String[1] = fahrenheitToCelsius(250);
+		args[0] = celsiusToFahrenheit(180);
+		args[1] = fahrenheitToCelsius(250);
 	}
 	
 	}
