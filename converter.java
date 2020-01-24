@@ -26,13 +26,15 @@ private double fahrenheitToCelsius(double F){
 		
 	}
 		
-public static voidmain(String[] args) {
+public static void main(String[] args) {
 		
 		//TODO:The first student will implement this method.
 		//Call CelsiusToFahrenheit to convert 180 Celsius to Fahrenheit value.
 		// Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
-		String[0] = celsiusToFahrenheit(180);
-		String[1] = fahrenheitToCelsius(250);
+		Converter C = new Converter(); 
+		System.out.println(C.celsiusToFahrenheit(180)); //180 System.out.println
+		//C.celsiusToFahrenheit(180);
+		System.out.println(C.fahrenheitToCelsius(250)); //250
 	}
 	
 	}
