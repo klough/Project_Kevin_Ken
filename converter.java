@@ -26,7 +26,14 @@ private double fahrenheitToCelsius(double F){
 		return (F-32)*5/9;
 		
 	}
-		
+
+
+private double kilometersToMiles(double K){
+	
+	return (K* 0.62137);
+	
+}
+	
 public static void main(String[] args) {
 		
 		//TODO:The first student will implement this method.
