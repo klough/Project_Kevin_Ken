@@ -32,8 +32,9 @@ public static void main(String[] args) {
 		//Call CelsiusToFahrenheit to convert 180 Celsius to Fahrenheit value.
 		// Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
 		Converter C = new Converter(); 
-		args[0] = C.celsiusToFahrenheit(180);
-		args[1] = C.fahrenheitToCelsius(250);
+		System.out.println(C.celsiusToFahrenheit(180)); //180 System.out.println
+		//C.celsiusToFahrenheit(180);
+		System.out.println(C.fahrenheitToCelsius(250)); //250
 	}
 	
 	}
